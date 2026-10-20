@@ -1,11 +1,3 @@
-/* Super JinX dashboard add-on
-   1) Sidebar shows only: Dashboard, Users, API Keys, Templates, Bulk Actions, Settings, Support
-      (+ Admins for the owner only, to create resellers).
-   2) The "API Keys" page gets a small built-in section to get the 5-minute owner key
-      (no new menu items, no extra buttons in the sidebar).
-   3) The "Settings" page gets a "Change password" card (current username + password -> new password).
-   4) The login page "Owner access" button opens the owner key dialog.
-   Everything follows the panel: Persian, English, Russian and Chinese, light and dark theme. */
 (function () {
   "use strict";
   function norm(t) { return String(t || "").replace(/[\u200c\s]+/g, " ").trim().toLowerCase(); }
